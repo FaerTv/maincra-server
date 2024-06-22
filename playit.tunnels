@@ -1,0 +1,47 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "reason": "requires-premium"
+        },
+        "status": "disabled"
+      },
+      "created_at": "2024-06-22T22:10:04.894188Z",
+      "disabled_reason": "requires-premium",
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "868ed5aa-fd5d-46c3-8441-89a2da4f5008",
+      "name": "Minecraft Java",
+      "origin": {
+        "data": {
+          "agent_id": "a99c447a-e87c-4190-a251-271f54911219",
+          "agent_name": "from-key-5c74",
+          "local_ip": "127.0.0.1",
+          "local_port": 25565
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "tcp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "north-america",
+      "tunnel_type": "minecraft-java"
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  }
+}
